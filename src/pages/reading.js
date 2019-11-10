@@ -38,7 +38,7 @@ const IndexPage = () => (
         <i>Python Tricks</i> - Dan Bader
       </li>
       <li>
-        <i>What You Do Is Who You Are</i> - Ben Horowitz
+        <i>Ultralearning</i> - Scott Young
       </li>
     </ul>
     <h4>Reading Soon</h4>
@@ -49,6 +49,9 @@ const IndexPage = () => (
     </ul>
     <h4>Recently Read</h4>
     <ul className="reading">
+      <li>
+        <i>What You Do Is Who You Are</i> - Ben Horowitz
+      </li>
       <li>
         <s>
           <i>Empire of Cotton</i> - Sven Beckert
