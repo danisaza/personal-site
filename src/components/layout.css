@@ -627,6 +627,27 @@ pre tt:before,
 pre tt:after {
   content: '';
 }
+div.tag {
+  padding: 0.1rem;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  color: #4a4a4a;
+  display: inline-block;
+  font-size: 0.7rem;
+  height: min-content;
+  justify-content: center;
+  line-height: 1.85;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+  vertical-align: text-bottom;
+  margin-left: 3px;
+}
+div.tag.picking {
+  background-color: #00d1b2;
+  color: whitesmoke;
+}
 ::selection {
   background-color: #00ffc5;
   color: #26547c;

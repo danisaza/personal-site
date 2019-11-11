@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Tag from '../components/tag'
 
 const IndexPage = () => (
   <Layout>
@@ -53,10 +54,7 @@ const IndexPage = () => (
         <i>What You Do Is Who You Are</i> - Ben Horowitz
       </li>
       <li>
-        <s>
-          <i>Empire of Cotton</i> - Sven Beckert
-        </s>{' '}
-        (Still picking at this. It's not a binge-able book.)
+        <i>Empire of Cotton</i> - Sven Beckert <Tag category="picking" />
       </li>
       <li>
         <i>Good to Great</i> - Jim Collins
