@@ -39,7 +39,7 @@ const IndexPage = () => (
         <i>Python Tricks</i> - Dan Bader
       </li>
       <li>
-        <i>Ultralearning</i> - Scott Young
+        <i>The Messy Middle</i> - Scott Belsky
       </li>
     </ul>
     <h4>Reading Soon</h4>
@@ -50,6 +50,9 @@ const IndexPage = () => (
     </ul>
     <h4>Recently Read</h4>
     <ul className="reading">
+      <li>
+        <i>Ultralearning</i> - Scott Young
+      </li>
       <li>
         <i>What You Do Is Who You Are</i> - Ben Horowitz
       </li>
