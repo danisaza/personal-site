@@ -33,13 +33,13 @@ const IndexPage = () => (
     <h4>Currently Reading</h4>
     <ul className="reading">
       <li>
-        <i>High Output Management</i> - Andy Grove
+        <i>High Output Management</i> - Andy Grove <Tag category="picking" />
       </li>
       <li>
-        <i>Python Tricks</i> - Dan Bader
+        <i>Python Tricks</i> - Dan Bader <Tag category="picking" />
       </li>
       <li>
-        <i>The Messy Middle</i> - Scott Belsky
+        <i>Straight Talk for Startups</i> - Randy Komisar and Jantoon Reigersman
       </li>
     </ul>
     <h4>Reading Soon</h4>
@@ -50,6 +50,9 @@ const IndexPage = () => (
     </ul>
     <h4>Recently Read</h4>
     <ul className="reading">
+      <li>
+        <i>The Messy Middle</i> - Scott Belsky
+      </li>
       <li>
         <i>Ultralearning</i> - Scott Young
       </li>
