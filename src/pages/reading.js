@@ -33,12 +33,6 @@ const IndexPage = () => (
     <h4>Currently Reading</h4>
     <ul className="reading">
       <li>
-        <i>High Output Management</i> - Andy Grove <Tag category="picking" />
-      </li>
-      <li>
-        <i>Python Tricks</i> - Dan Bader <Tag category="picking" />
-      </li>
-      <li>
         <i>Straight Talk for Startups</i> - Randy Komisar and Jantoon Reigersman
       </li>
     </ul>
@@ -67,6 +61,12 @@ const IndexPage = () => (
       </li>
       <li>
         <i>The Goal</i> - Eliyahu M. Goldratt
+      </li>
+      <li>
+        <i>Python Tricks</i> - Dan Bader <Tag category="picking" />
+      </li>
+      <li>
+        <i>High Output Management</i> - Andy Grove <Tag category="picking" />
       </li>
       <li>
         <i>Trillion Dollar Coach</i> - Eric Schmidt, Jonathan Rosenberg, Alan
