@@ -8,9 +8,13 @@ const Tag = ({ category }) => {
     throw `provided category ${category} is not in ${ALLOWED_CATEGORIES}`
   }
   const labelText = {
-    picking: '⛏️ Still picking at it',
+    picking: '⛏️',
   }[category]
-  return <div className={`tag ${category}`}>{labelText}</div>
+  return (
+    <div className={`tag ${category}`} title="Still picking at it">
+      {labelText}
+    </div>
+  )
 }
 
 Tag.propTypes = {
