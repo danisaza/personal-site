@@ -16,24 +16,14 @@ const IndexPage = () => (
     <h3>Got Suggestions?</h3>
     <p>
       I'm currently looking for book recommendations about Engineering
-      leadership.
-    </p>
-    <p>
-      I'd love to get your suggestions through{' '}
-      <a
-        href="https://airtable.com/shrJNWYtbol5Cg9n1"
-        target="_blank"
-        rel="noopener"
-      >
-        this form
-      </a>
-      !
+      leadership. If you have any, please reach out to me at: dan at this
+      domain.
     </p>
     <hr />
     <h4>Currently Reading</h4>
     <ul className="reading">
       <li>
-        <i>Straight Talk for Startups</i> - Randy Komisar and Jantoon Reigersman
+        <i>The Monk and the Riddle</i> - Randy Komisar
       </li>
     </ul>
     <h4>Reading Soon</h4>
@@ -44,6 +34,9 @@ const IndexPage = () => (
     </ul>
     <h4>Recently Read</h4>
     <ul className="reading">
+      <li>
+        <i>Straight Talk for Startups</i> - Randy Komisar and Jantoon Reigersman
+      </li>
       <li>
         <i>The Messy Middle</i> - Scott Belsky
       </li>
