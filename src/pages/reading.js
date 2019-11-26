@@ -23,7 +23,7 @@ const IndexPage = () => (
     <h4>Currently Reading</h4>
     <ul className="reading">
       <li>
-        <i>The Monk and the Riddle</i> - Randy Komisar
+        <i>Little Weirds</i> - Jenny Slate
       </li>
     </ul>
     <h4>Reading Soon</h4>
@@ -34,6 +34,9 @@ const IndexPage = () => (
     </ul>
     <h4>Recently Read</h4>
     <ul className="reading">
+      <li>
+        <i>The Monk and the Riddle</i> - Randy Komisar
+      </li>
       <li>
         <i>Straight Talk for Startups</i> - Randy Komisar and Jantoon Reigersman
       </li>
