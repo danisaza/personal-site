@@ -1,6 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
-
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Tag from '../components/tag'
@@ -23,7 +21,7 @@ const IndexPage = () => (
     <h4>Currently Reading</h4>
     <ul className="reading">
       <li>
-        <i>Little Weirds</i> - Jenny Slate
+        <i>Letters from a Stoic</i> - Lucius Seneca
       </li>
     </ul>
     <h4>Reading Soon</h4>
@@ -34,6 +32,21 @@ const IndexPage = () => (
     </ul>
     <h4>Recently Read</h4>
     <ul className="reading">
+      <li>
+        <i>The Effective Executive</i> - Peter Drucker
+      </li>
+      <li>
+        <i>Objections</i> - Jeb Blount
+      </li>
+      <li>
+        <i>Sales EQ</i> - Jeb Blount
+      </li>
+      <li>
+        <i>Debt</i> - David Graeber <Tag category="picking" />
+      </li>
+      <li>
+        <i>Little Weirds</i> - Jenny Slate
+      </li>
       <li>
         <i>The Monk and the Riddle</i> - Randy Komisar
       </li>
