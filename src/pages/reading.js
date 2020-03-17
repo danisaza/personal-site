@@ -21,7 +21,7 @@ const IndexPage = () => (
     <h4>Currently Reading</h4>
     <ul className="reading">
       <li>
-        <i>Letters from a Stoic</i> - Lucius Seneca
+        <i>Obey the Testing Goat</i> - Harry J.W. Percival
       </li>
     </ul>
     <h4>Reading Soon</h4>
@@ -32,6 +32,9 @@ const IndexPage = () => (
     </ul>
     <h4>Recently Read</h4>
     <ul className="reading">
+      <li>
+        <i>Letters from a Stoic</i> - Lucius Seneca <Tag category="picking" />
+      </li>
       <li>
         <i>The Effective Executive</i> - Peter Drucker
       </li>
