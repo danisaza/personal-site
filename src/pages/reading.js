@@ -21,7 +21,11 @@ const IndexPage = () => (
     <h4>Currently Reading</h4>
     <ul className="reading">
       <li>
-        <i>Obey the Testing Goat</i> - Harry J.W. Percival
+        <i>
+          That Will Never Work: The Birth of Netflix and the Amazing Life of an
+          Idea
+        </i>{' '}
+        - Marc Randolph
       </li>
     </ul>
     <h4>Reading Soon</h4>
@@ -32,6 +36,22 @@ const IndexPage = () => (
     </ul>
     <h4>Recently Read</h4>
     <ul className="reading">
+      <li>
+        <i>Obey the Testing Goat</i> - Harry J.W. Percival{' '}
+        <Tag category="picking" />
+      </li>
+      <li>
+        <i>Start Small, Stay Small</i> - Rob Walling
+      </li>
+      <li>
+        <i>The Unicorn Project</i> - Gene Kim
+      </li>
+      <li>
+        <i>Who: The A method for hiring</i> - Geoff Smart and Randy Street
+      </li>
+      <li>
+        <i>The First 90 Days</i> - Michael Watkins
+      </li>
       <li>
         <i>Letters from a Stoic</i> - Lucius Seneca <Tag category="picking" />
       </li>
