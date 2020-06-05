@@ -627,6 +627,10 @@ pre tt:before,
 pre tt:after {
   content: '';
 }
+i.yearLabel {
+  float: right;
+  color: grey;
+}
 div.tag {
   padding: 0.1rem;
   align-items: center;
