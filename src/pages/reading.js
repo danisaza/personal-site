@@ -1,15 +1,23 @@
+import { Link } from 'gatsby'
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Tag from '../components/tag'
 
-const IndexPage = () => (
+const ReadingPage = () => (
   <Layout>
-    <SEO title="Reading" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Reading"
+      keywords={[`reading`, `audiobooks`, `engineering`, `leadership`]}
+    />
     <h2>Reading</h2>
     <p>
-      I love reading, especially with audiobooks. I'm open to not finishing
-      books, which I represent with a <s>strikethrough</s> in the list below.
+      I love reading, especially audiobooks. I also{' '}
+      <Link to="/podcasts">love podcasts</Link>.
+    </p>
+    <p>
+      I'm open to not finishing books, which I represent with a{' '}
+      <s>strikethrough</s> in the list below.
     </p>
     <h3>Got Suggestions?</h3>
     <p>
@@ -17,28 +25,37 @@ const IndexPage = () => (
       leadership. If you have any, please reach out to me at: dan at this
       domain.
     </p>
+    <i className="yearLabel">2020</i>
     <hr />
     <h4>Currently Reading</h4>
     <ul className="reading">
+      <li>
+        <i>The Poet X</i> - Elizabeth Acevedo
+      </li>
+    </ul>
+    <h4>Reading Soon</h4>
+    <ul className="reading">
+      <li>
+        <i>The Fire Next Time</i> - James Baldwin
+      </li>
+    </ul>
+    <h4>Recently Read</h4>
+    <ul className="reading">
+      <li>
+        <i>The Undocumented Americans</i> - Karla Cornejo Villavicencio
+      </li>
+      <li>
+        <i>The Dichotomy of Leadership</i> - Jocko Willink, Leif Babin
+      </li>
+      <li>
+        <i>Extreme Ownership</i> - Jocko Willink, Leif Babin
+      </li>
       <li>
         <i>
           That Will Never Work: The Birth of Netflix and the Amazing Life of an
           Idea
         </i>{' '}
         - Marc Randolph
-      </li>
-    </ul>
-    <h4>Reading Soon</h4>
-    <ul className="reading">
-      <li>
-        <i>The Great CEO Within</i> - Matt Mochary
-      </li>
-    </ul>
-    <h4>Recently Read</h4>
-    <ul className="reading">
-      <li>
-        <i>Obey the Testing Goat</i> - Harry J.W. Percival{' '}
-        <Tag category="picking" />
       </li>
       <li>
         <i>Start Small, Stay Small</i> - Rob Walling
@@ -53,6 +70,10 @@ const IndexPage = () => (
         <i>The First 90 Days</i> - Michael Watkins
       </li>
       <li>
+        <i>Obey the Testing Goat</i> - Harry J.W. Percival{' '}
+        <Tag category="picking" />
+      </li>
+      <li>
         <i>Letters from a Stoic</i> - Lucius Seneca <Tag category="picking" />
       </li>
       <li>
@@ -64,6 +85,8 @@ const IndexPage = () => (
       <li>
         <i>Sales EQ</i> - Jeb Blount
       </li>
+      <i className="yearLabel">2019</i>
+      <hr />
       <li>
         <i>Debt</i> - David Graeber <Tag category="picking" />
       </li>
@@ -98,7 +121,7 @@ const IndexPage = () => (
         <i>Python Tricks</i> - Dan Bader <Tag category="picking" />
       </li>
       <li>
-        <i>High Output Management</i> - Andy Grove <Tag category="picking" />
+        <i>High Output Management</i> - Andy Grove
       </li>
       <li>
         <i>Trillion Dollar Coach</i> - Eric Schmidt, Jonathan Rosenberg, Alan
@@ -150,12 +173,6 @@ const IndexPage = () => (
         <i>The Manager's Path</i> - Camille Fournier
       </li>
       <li>
-        <s>
-          <i>Extreme Ownership</i> - Jocko Willink, Leif Babin
-        </s>{' '}
-        (felt like an in-depth and trigger-happy military memoir)
-      </li>
-      <li>
         <i>The Last Black Unicorn</i> - Tiffany Haddish
       </li>
       <li>
@@ -198,6 +215,8 @@ const IndexPage = () => (
       <li>
         <i>Rework</i> - Jason Fried, David Heinemeier Hansson
       </li>
+      <i className="yearLabel">2018</i>
+      <hr />
       <li>
         <i>The Lean Startup</i> - Eric Ries
       </li>
@@ -244,8 +263,11 @@ const IndexPage = () => (
       <li>
         <i>The Pragmatic Programmer</i> - Andy Hunt, Dave Thomas
       </li>
+      <li>
+        <i>The Communist Hypothesis</i> - Alain Badiou
+      </li>
     </ul>
   </Layout>
 )
 
-export default IndexPage
+export default ReadingPage
