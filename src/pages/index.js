@@ -10,7 +10,7 @@ const IndexPage = () => (
       keywords={[`dan isaza`, `engineering`, `devops`, `leadership`]}
     />
     <p>Hi there! I'm Dan. 👋🏽</p>
-    <p>I'm a bisexual Colombian American Software Engineer. 🏳️‍🌈🇨🇴💻</p>
+    <p>I'm a bisexual Colombian American software engineer. 🏳️‍🌈🇨🇴💻</p>
     <p>
       I write full-stack software for the web. I like math, statistics, and
       devops.

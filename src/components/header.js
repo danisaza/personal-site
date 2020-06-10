@@ -16,21 +16,63 @@ const Header = ({ siteTitle }) => (
         padding: `3rem 1.0875rem`,
       }}
     >
-      <h1
-        style={{
-          margin: 0,
-        }}
-      >
-        <Link
-          to="/"
-          style={{
-            color: `#444444`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <div className="flex justify-between items-baseline">
+        <div className="">
+          <h1
+            className="align-text-bottom hover:underline"
+            style={{
+              margin: 0,
+            }}
+          >
+            <Link
+              to="/"
+              style={{
+                color: `#444444`,
+                textDecoration: `none`,
+              }}
+            >
+              {siteTitle}
+            </Link>
+          </h1>
+        </div>
+        <div className="">
+          <h2 className="text-center align-text-bottom hover:underline">
+            <Link
+              to="/reading"
+              style={{
+                color: `#444444`,
+                textDecoration: `none`,
+              }}
+            >
+              reading
+            </Link>
+          </h2>
+        </div>
+        <div className="">
+          <h2 className="text-right hover:underline">
+            <Link
+              to="/podcasts"
+              style={{
+                color: `#444444`,
+              }}
+            >
+              podcasts
+            </Link>
+          </h2>
+        </div>
+        <div className="">
+          <h2 className="text-right hover:underline">
+            <Link
+              to="/writing"
+              style={{
+                color: `#444444`,
+              }}
+            >
+              writing
+            </Link>
+          </h2>
+        </div>
+      </div>
     </div>
   </div>
 )

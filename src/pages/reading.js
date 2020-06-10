@@ -27,20 +27,23 @@ const ReadingPage = () => (
     </p>
     <i className="yearLabel">2020</i>
     <hr />
-    <h4>Currently Reading</h4>
-    <ul className="reading">
-      <li>
-        <i>The Poet X</i> - Elizabeth Acevedo
-      </li>
-    </ul>
-    <h4>Reading Soon</h4>
-    <ul className="reading">
+    <h4 className="mb-2 text-black">Currently Reading</h4>
+    <ul className="reading pb-1">
       <li>
         <i>The Fire Next Time</i> - James Baldwin
       </li>
     </ul>
-    <h4>Recently Read</h4>
+    <h4 className="mb-2 text-black">Reading Soon</h4>
+    <ul className="reading pb-1">
+      <li>
+        <i>The End of Policing</i> - Alex S. Vitale
+      </li>
+    </ul>
+    <h4 className="mb-2 text-black">Recently Read</h4>
     <ul className="reading">
+      <li>
+        <i>The Poet X</i> - Elizabeth Acevedo
+      </li>
       <li>
         <i>The Undocumented Americans</i> - Karla Cornejo Villavicencio
       </li>
