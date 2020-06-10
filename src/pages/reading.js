@@ -19,12 +19,6 @@ const ReadingPage = () => (
       I'm open to not finishing books, which I represent with a{' '}
       <s>strikethrough</s> in the list below.
     </p>
-    <h3>Got Suggestions?</h3>
-    <p>
-      I'm currently looking for book recommendations about Engineering
-      leadership. If you have any, please reach out to me at: dan at this
-      domain.
-    </p>
     <i className="yearLabel">2020</i>
     <hr />
     <h4 className="mb-2 text-black">Currently Reading</h4>
