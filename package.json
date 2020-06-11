@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "dan-isaza-personal-site",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Dan Isaza's personal website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Dan Isaza <dan@isaza.dev>",
   "dependencies": {
     "@tailwindcss/ui": "^0.3.0",
     "gatsby": "2.19.18",
