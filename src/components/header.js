@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
         padding: `3rem 1.0875rem`,
       }}
     >
-      <div className="flex justify-between items-baseline">
+      <div className="flex justify-between items-baseline max-w-full">
         <div className="">
           <h1
             className="align-text-bottom hover:underline"
@@ -36,7 +36,7 @@ const Header = ({ siteTitle }) => (
           </h1>
         </div>
         <div className="">
-          <h2 className="text-center align-text-bottom hover:underline">
+          <h2 className="text-center text-sm sm:text-2xl align-text-bottom hover:underline invisible sm:visible">
             <Link
               to="/reading"
               style={{
@@ -49,7 +49,7 @@ const Header = ({ siteTitle }) => (
           </h2>
         </div>
         <div className="">
-          <h2 className="text-right hover:underline">
+          <h2 className="text-right text-sm sm:text-2xl hover:underline invisible sm:visible">
             <Link
               to="/podcasts"
               style={{
@@ -61,7 +61,7 @@ const Header = ({ siteTitle }) => (
           </h2>
         </div>
         <div className="">
-          <h2 className="text-right hover:underline">
+          <h2 className="text-right text-sm sm:text-2xl hover:underline invisible sm:visible">
             <Link
               to="/writing"
               style={{
