@@ -11,15 +11,15 @@ const IndexPage = () => (
         title="Home"
         keywords={[`dan isaza`, `engineering`, `devops`, `leadership`]}
       />
-      <p>Hi there! I'm Dan. 👋🏽</p>
-      <p>I'm a bisexual Colombian American software engineer. 🏳️‍🌈🇨🇴💻</p>
+      <p>Hi there! I'm Dan. <span role="img" aria-label="waving hand skin tone 4">👋🏽</span></p>
+      <p>I'm a bisexual Colombian American software engineer. <span role="img" aria-label="queer pride flag">🏳️‍🌈</span> <span role="img" aria-label="Colombian flag">🇨🇴</span> <span role="img" aria-label="laptop">💻</span></p>
       <p>
         I write full-stack software for the web. I like math, statistics, and
         devops.
       </p>
       <p>
         I'm currently the VP of Engineering at{' '}
-        <a href="https://listwithclever.com/" target="_blank" rel="noopener">
+        <a href="https://listwithclever.com/" target="_blank" rel="noopener noreferrer">
           Clever Real Estate
         </a>
         . I studied Math & CS at Stanford.
@@ -29,7 +29,7 @@ const IndexPage = () => (
         <a
           href="https://www.linkedin.com/in/danisaza/"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           LinkedIn
         </a>
@@ -47,7 +47,7 @@ const IndexPage = () => (
         <a
           href="https://github.com/PlotterClub/penplotPlayground"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           open-source code
         </a>{' '}

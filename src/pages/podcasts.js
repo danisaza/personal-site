@@ -19,7 +19,7 @@ const PodcastsPage = () => (
         <a
           href="https://www.indiehackers.com/podcast"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           Indie Hackers podcast
         </a>{' '}
@@ -41,7 +41,7 @@ const PodcastsPage = () => (
         <a
           href="https://softwareengineeringdaily.com/"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           the podcast
         </a>{' '}
@@ -63,7 +63,7 @@ const PodcastsPage = () => (
         <a
           href="https://www.mydevsecops.io/the-secure-developer-podcast"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           this podcast
         </a>

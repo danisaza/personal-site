@@ -3,7 +3,6 @@ import React from 'react'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Tag from '../components/tag'
 
 const ReadingPage = () => (
   <>
@@ -20,6 +19,9 @@ const ReadingPage = () => (
       <p>
         I'm open to not finishing books, which I represent with a{' '}
         <s>strikethrough</s> in the list below.
+      </p>
+      <p>
+        I'm also open to slowly picking at books, which I represent with an asterisk (*).
       </p>
       <i className="yearLabel">2020</i>
       <hr />
@@ -72,11 +74,10 @@ const ReadingPage = () => (
           <i>The First 90 Days</i> - Michael Watkins
         </li>
         <li>
-          <i>Obey the Testing Goat</i> - Harry J.W. Percival{' '}
-          <Tag category="picking" />
+          <i>Obey the Testing Goat</i> - Harry J.W. Percival*
         </li>
         <li>
-          <i>Letters from a Stoic</i> - Lucius Seneca <Tag category="picking" />
+          <i>Letters from a Stoic</i> - Lucius Seneca*
         </li>
         <li>
           <i>The Effective Executive</i> - Peter Drucker
@@ -90,7 +91,7 @@ const ReadingPage = () => (
         <i className="yearLabel">2019</i>
         <hr />
         <li>
-          <i>Debt</i> - David Graeber <Tag category="picking" />
+          <i>Debt</i> - David Graeber*
         </li>
         <li>
           <i>Little Weirds</i> - Jenny Slate
@@ -112,7 +113,7 @@ const ReadingPage = () => (
           <i>What You Do Is Who You Are</i> - Ben Horowitz
         </li>
         <li>
-          <i>Empire of Cotton</i> - Sven Beckert <Tag category="picking" />
+          <i>Empire of Cotton</i> - Sven Beckert*
         </li>
         <li>
           <i>Good to Great</i> - Jim Collins
@@ -121,7 +122,7 @@ const ReadingPage = () => (
           <i>The Goal</i> - Eliyahu M. Goldratt
         </li>
         <li>
-          <i>Python Tricks</i> - Dan Bader <Tag category="picking" />
+          <i>Python Tricks</i> - Dan Bader*
         </li>
         <li>
           <i>High Output Management</i> - Andy Grove
