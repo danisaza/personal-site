@@ -27,9 +27,9 @@ const ReadingPage = () => (
       <hr />
       <h4 className="mb-2 text-black">Currently Reading</h4>
       <ul className="reading pb-1">
-        <li>
-          <i>How to be an Anti-Racist</i> - Ibram X. Kendi
-        </li>
+      <li>
+        <i>A Philosophy of Software Design</i> - John Ousterhout
+      </li>
       </ul>
       <h4 className="mb-2 text-black">Reading Soon</h4>
       <ul className="reading pb-1">
@@ -39,6 +39,24 @@ const ReadingPage = () => (
       </ul>
       <h4 className="mb-2 text-black">Recently Read</h4>
       <ul className="reading">
+        <li>
+          <i>A Very Punchable Face</i> - Colin Jost
+        </li>
+        <li>
+          <i>The Year Without Pants</i> - Scott Berkun
+        </li>
+        <li>
+          <i>A People's History of the United States</i> - Howard Zinn*
+        </li>
+        <li>
+          <i>Patterns of Enterprise Application Architecture</i> - Martin Fowler*
+        </li>
+        <li>
+          <i>An African American and Latinx History of the United States</i> - Paul Ortiz
+        </li>
+        <li>
+          <i>How to be an Anti-Racist</i> - Ibram X. Kendi
+        </li>
         <li>
           <i>The Fire Next Time</i> - James Baldwin
         </li>
