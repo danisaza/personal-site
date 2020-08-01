@@ -12,11 +12,10 @@ const IndexPage = () => (
         keywords={[`dan isaza`, `engineering`, `devops`, `leadership`]}
       />
       <p>Hi there! I'm Dan. <span role="img" aria-label="waving hand skin tone 4">👋🏽</span></p>
-      <p>I'm a bisexual Colombian American software engineer. <span role="img" aria-label="queer pride flag">🏳️‍🌈</span> <span role="img" aria-label="Colombian flag">🇨🇴</span> <span role="img" aria-label="laptop">💻</span></p>
       <p>
-        I write full-stack software for the web. I like math, statistics, and
-        devops.
+        I'm an engineering leader who writes full-stack software for the web.
       </p>
+      <p>I like reading, skiing, and noodling on my modular synthesizer. <span role="img" aria-label="smile">😄</span></p>
       <p>
         I'm currently the VP of Engineering at{' '}
         <a href="https://listwithclever.com/" target="_blank" rel="noopener noreferrer">
@@ -41,7 +40,7 @@ const IndexPage = () => (
         For now, you can keep up with <Link to="/reading">my reading list</Link>{' '}
         and <Link to="/podcasts">podcast recommendations</Link>.
       </p>
-      <p>Eventually, I may publish stuff here.</p>
+      <p>Eventually, I may publish writings here.</p>
       <p>
         Until then, check out this{' '}
         <a
