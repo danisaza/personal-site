@@ -21,7 +21,7 @@ const ReadingPage = () => (
         <s>strikethrough</s> in the list below.
       </p>
       <p>
-        I'm also open to slowly picking at books, which I represent with an asterisk (*).
+        I'm also open to slowly picking at books or using them as reference manuals, which I represent with an asterisk (*).
       </p>
       <i className="yearLabel">2020</i>
       <hr />
@@ -31,7 +31,7 @@ const ReadingPage = () => (
         <i>A Philosophy of Software Design</i> - John Ousterhout
       </li>
       </ul>
-      <h4 className="mb-2 text-black">Reading Soon</h4>
+      <h4 className="mb-2 text-black">Reading Next</h4>
       <ul className="reading pb-1">
         <li>
           <i>The End of Policing</i> - Alex S. Vitale
