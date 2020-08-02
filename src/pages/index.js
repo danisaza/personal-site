@@ -23,17 +23,7 @@ const IndexPage = () => (
         </a>
         . I studied Math & CS at Stanford.
       </p>
-      <p>
-        For more about my professional background, check me out on{' '}
-        <a
-          href="https://www.linkedin.com/in/danisaza/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a>
-        .
-      </p>
+      <p>I'm the proud bisexual son of Colombian immigrants. <span role="img" aria-label="pride flag">🏳️‍🌈</span> <span role="img" aria-label="Colombian flag">🇨🇴</span></p>
       <br />
       <h3>Stuff to do here</h3>
       <p>
