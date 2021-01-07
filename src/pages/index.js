@@ -11,37 +11,72 @@ const IndexPage = () => (
         title="Home"
         keywords={[`dan isaza`, `engineering`, `devops`, `leadership`]}
       />
-      <p>Hi there! I'm Dan. <span role="img" aria-label="waving hand skin tone 4">👋🏽</span></p>
-      <p>
-        I'm an engineering leader who writes full-stack software for the web.
-      </p>
-      <p>I like reading, skiing, and noodling on my modular synthesizer. <span role="img" aria-label="smile">😄</span></p>
-      <p>
-        I'm currently the VP of Engineering at{' '}
-        <a href="https://listwithclever.com/" target="_blank" rel="noopener noreferrer">
-          Clever Real Estate
-        </a>
-        . I studied Math & CS at Stanford.
-      </p>
-      <p>I'm the proud bisexual son of Colombian immigrants. <span role="img" aria-label="pride flag">🏳️‍🌈</span> <span role="img" aria-label="Colombian flag">🇨🇴</span></p>
-      <br />
-      <h3>Stuff to do here</h3>
-      <p>
-        For now, you can keep up with <Link to="/reading">my reading list</Link>{' '}
-        and <Link to="/podcasts">podcast recommendations</Link>.
-      </p>
-      <p>Eventually, I may publish writings here.</p>
-      <p>
-        Until then, check out this{' '}
-        <a
-          href="https://github.com/PlotterClub/penplotPlayground"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          open-source code
-        </a>{' '}
-        I wrote for plotter robots!
-      </p>
+      <div className="max-w-xl">
+        <p>
+          Hi there! I'm Dan.{' '}
+          <span role="img" aria-label="waving hand skin tone 4">
+            👋🏽
+          </span>
+        </p>
+        <p>
+          I'm an engineering leader who writes full-stack software for the web.
+        </p>
+        <p>
+          I like reading, skiing, and noodling on my modular synthesizer.{' '}
+          <span role="img" aria-label="smile">
+            😄
+          </span>
+        </p>
+        <p>
+          I'm currently a software engineer in the biotech space and before that
+          I was the VP of Engineering at{' '}
+          <a
+            href="https://listwithclever.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Clever Real Estate
+          </a>
+          . I studied Math & CS at Stanford.
+        </p>
+        <p>
+          I'm the proud bisexual son of Colombian immigrants.{' '}
+          <span role="img" aria-label="pride flag">
+            🏳️‍🌈
+          </span>{' '}
+          <span role="img" aria-label="Colombian flag">
+            🇨🇴
+          </span>
+        </p>
+        <br />
+        <h3>Let's level up together!</h3>
+        <p>
+          I'm creating content to help current and aspiring software engineers
+          level up their careers.
+        </p>
+        <p>
+          You can check out my writing over at{' '}
+          <a
+            href="https://www.danisaza.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            danisaza.com
+          </a>
+          .
+        </p>
+        <p>
+          I also record a podcast with my buddy Robbe Simon. It's called{' '}
+          <a
+            href="https://anchor.fm/decoders"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            The (De)Coders
+          </a>
+          .
+        </p>
+      </div>
     </Layout>
     <Footer />
   </>

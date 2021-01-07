@@ -21,24 +21,43 @@ const ReadingPage = () => (
         <s>strikethrough</s> in the list below.
       </p>
       <p>
-        I'm also open to slowly picking at books or using them as reference manuals, which I represent with an asterisk (*).
+        I'm also open to slowly picking at books or using them as reference
+        manuals, which I represent with an asterisk (*).
       </p>
-      <i className="yearLabel">2020</i>
+      <i className="yearLabel">2021</i>
       <hr />
       <h4 className="mb-2 text-black">Currently Reading</h4>
       <ul className="reading pb-1">
-      <li>
-        <i>A Philosophy of Software Design</i> - John Ousterhout
-      </li>
-      </ul>
-      <h4 className="mb-2 text-black">Reading Next</h4>
-      <ul className="reading pb-1">
         <li>
-          <i>The End of Policing</i> - Alex S. Vitale
+          <i>Salt Fat Acid Heat</i> - Samin Nosrat
         </li>
       </ul>
       <h4 className="mb-2 text-black">Recently Read</h4>
       <ul className="reading">
+        <li>
+          <i>Dear Girls</i> - Ali Wong
+        </li>
+        <i className="yearLabel">2020</i>
+        <hr />
+        <li>
+          <i>Winners Take All: The Elite Charade of Changing the World</i> -
+          Anand Giridharadas
+        </li>
+        <li>
+          <i>The System: Who Rigged It, How We Fix It</i> - Robert B. Reich
+        </li>
+        <li>
+          <i>Worked Over</i> - Jamie K McCallum
+        </li>
+        <li>
+          <i>So You Want to Talk About Race</i> - Ijeoma Oluo
+        </li>
+        <li>
+          <i>Doughnut Economics</i> - Kate Raworth
+        </li>
+        <li>
+          <i>A Philosophy of Software Design</i> - John Ousterhout
+        </li>
         <li>
           <i>A Very Punchable Face</i> - Colin Jost
         </li>
@@ -49,10 +68,12 @@ const ReadingPage = () => (
           <i>A People's History of the United States</i> - Howard Zinn*
         </li>
         <li>
-          <i>Patterns of Enterprise Application Architecture</i> - Martin Fowler*
+          <i>Patterns of Enterprise Application Architecture</i> - Martin
+          Fowler*
         </li>
         <li>
-          <i>An African American and Latinx History of the United States</i> - Paul Ortiz
+          <i>An African American and Latinx History of the United States</i> -
+          Paul Ortiz
         </li>
         <li>
           <i>How to be an Anti-Racist</i> - Ibram X. Kendi

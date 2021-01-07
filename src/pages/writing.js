@@ -10,7 +10,23 @@ const WritingPage = () => (
         title="Writing"
         keywords={[`writing`, `musings`, `thoughts`, `leadership`]}
       />
-      <p>Keep an eye out. I'll be publishing here soon.</p>
+      <div className="max-w-xl">
+        <p>
+          I'm creating content to help current and aspiring software engineers
+          level up their careers.
+        </p>
+        <p>
+          You can check out my writing over at{' '}
+          <a
+            href="https://www.danisaza.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            danisaza.com
+          </a>
+          .
+        </p>
+      </div>
     </Layout>
     <Footer currPage="Writing" />
   </>

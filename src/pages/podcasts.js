@@ -10,7 +10,23 @@ const PodcastsPage = () => (
         title="Podcasts"
         keywords={[`podcasts`, `engineering`, `leadership`, `indie hacker`]}
       />
-      <h2>Podcast Recommendations</h2>
+      <div className="mb-10 rounded">
+        <h2>Update: I record a podcast now!</h2>
+        <p>
+          It's called{' '}
+          <b>
+            <a
+              href="https://anchor.fm/decoders"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              The (De)Coders
+            </a>
+          </b>
+          , and I record it with my friend Robbe Simon.
+        </p>
+      </div>
+      <h2>Podcasts I Recommend</h2>
       <p>I love listening to podcasts. Here are a few that I recommend.</p>
       <hr />
       <h3>The Indie Hackers Podcast (w/ Courtland Allen)</h3>
